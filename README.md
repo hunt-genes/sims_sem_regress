@@ -22,3 +22,16 @@ You can recover regression coefficients exactly.
 
 ```r
 install.packages("lavaan")
+
+
+# 📊 SEM vs Regression: Visual Representation
+
+Below is a path diagram of the Structural Equation Model (SEM) fitted using the covariance matrix. This model is equivalent to a standard linear regression of `Y` on `X1` and `X2`.
+
+![SEM Path Diagram](sem_plot.png)
+
+---
+
+## 🧠 Model Explanation
+
+The diagram represents the following model:
