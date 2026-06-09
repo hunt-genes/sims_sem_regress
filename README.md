@@ -96,3 +96,35 @@ The plot was generated using:
 - `DiagrammeR` for visualization  
 
 See the `/R` scripts for full code used to generate this figure.
+
+## 📊 SEM vs Regression (Visual Comparison)
+
+| Structural Equation Model | Partial Regression Plot |
+|---------------------------|------------------------|
+| <img src="sem_plot.png" width="400"/> | <img src="partial_regression_X1.png" width="400"/> |
+
+---
+
+## 🧠 Interpretation
+
+- **Left (SEM diagram):**
+  - Shows structural relationships:
+    - `X1 → Y`
+    - `X2 → Y`
+    - `X1 ↔ X2`
+
+- **Right (partial regression):**
+  - Shows the effect of `X1` on `Y`
+  - After controlling for `X2`
+
+---
+
+## ✅ Key Insight
+
+The slope in the partial regression plot is **identical** to the path:
+    - `X1 → Y`    
+    in the SEM diagram.
+
+👉 This demonstrates:
+
+> **SEM coefficients = partial regression coefficients**
