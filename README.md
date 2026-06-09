@@ -37,7 +37,7 @@ This figure is a **partial regression plot** illustrating the relationship betwe
 The model of interest is: 
 `Y ~ X1 + X2`   
 
-In both **multiple regression** and **SEM**, the coefficient for `X1` represents:
+In both **multiple regression** and **SEM** (below), the coefficient for `X1` represents:
 
 > The effect of `X1` on `Y`, **holding `X2` constant**
 
