@@ -11,9 +11,14 @@ SEM does not require raw data. If you provide:
 
 You can recover regression coefficients exactly.
 
-## Run in R
+## Files
 
-source("R/01_generate_data.R")
-source("R/02_regression_model.R")
-source("R/03_covariance_sem.R")
-source("R/04_compare_results.R")
+- `01_generate_data.R`: Simulate dataset
+- `02_regression_model.R`: Fit OLS regression
+- `03_covariance_sem.R`: Fit SEM using covariance matrix
+- `04_compare_results.R`: Compare outputs
+
+## Requirements
+
+```r
+install.packages("lavaan")
