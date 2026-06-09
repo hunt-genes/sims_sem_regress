@@ -24,6 +24,34 @@ You can recover regression coefficients exactly.
 install.packages("lavaan")
 ```
 
+## 📉 Partial Regression Plot (SEM Equivalence)
+
+![Partial Regression Plot](partial_regression_X1.png)
+
+---
+
+## 🧠 What this plot shows
+
+This figure is a **partial regression plot** illustrating the relationship between `X1` and `Y` **after controlling for `X2`**.
+
+The model of interest is: 
+`Y ~ X1 + X2`   
+
+In both **multiple regression** and **SEM**, the coefficient for `X1` represents:
+
+> The effect of `X1` on `Y`, **holding `X2` constant**
+
+## 📁 Reproducibility
+
+The plot was generated using:
+
+- `lm()` for regression  
+- residualization to compute partial relationships  
+- `ggplot2` for visualization  
+
+See the accompanying R script for full implementation.
+---
+
 # 📊 SEM vs Regression: Visual Representation
 
 Below is a path diagram of the Structural Equation Model (SEM) fitted using the covariance matrix. This model is equivalent to a standard linear regression of `Y` on `X1` and `X2`.
