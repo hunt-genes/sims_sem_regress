@@ -1,5 +1,9 @@
 set.seed(123)
 
+# Ensure directories exist
+if (!dir.exists("data")) dir.create("data")
+if (!dir.exists("output")) dir.create("output")
+
 N <- 500
 
 X1 <- rnorm(N)
