@@ -22,7 +22,7 @@ You can recover regression coefficients exactly.
 
 ```r
 install.packages("lavaan")
-
+```
 
 # 📊 SEM vs Regression: Visual Representation
 
