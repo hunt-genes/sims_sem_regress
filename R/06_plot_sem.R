@@ -1,7 +1,7 @@
 # Plot SEM
 
-source("fun_lavaan_to_diagram.R")
-source("fun_save_sem_png.R")
+source("R/functions/fun_lavaan_to_diagram.R")
+source("R/functions/fun_save_sem_png.R")
 
 model <- '
   Y ~ X1 + X2
