@@ -101,7 +101,7 @@ See the `/R` scripts for full code used to generate this figure.
 
 | Structural Equation Model | Partial Regression Plot |
 |---------------------------|------------------------|
-| <img src="sem_plot.png" width="400"/> | <img src="partial_regression_X1.png" width="400"/> |
+| <img src="plot_sem.png" width="400"/> | <img src="partial_regression_X1.png" width="400"/> |
 
 ---
 
